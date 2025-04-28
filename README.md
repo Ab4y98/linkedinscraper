@@ -25,6 +25,17 @@ If you are using this application, please be aware that LinkedIn does not allow 
 - SQLite3
 - Pysocks
 
+### Docker
+
+```bash
+sudo docker build -t linkedinscraper .
+sudo docker run -it -p 5001:5001 linkedinscraper
+
+#Then inside the tty run:
+python main.py
+python app.py
+```
+
 ### Installation
 
 1. Clone the repository to your local machine.
@@ -32,7 +43,7 @@ If you are using this application, please be aware that LinkedIn does not allow 
 3. Create a `config.json` file in the root directory of the project. See the `config.json` section below for details on the configuration options. Config_example.json is provided as an example, feel free to use it as a template.
 4. Run the scraper using the command `python main.py`. Note: run this first first to populate the database with job postings prior to running app.py.
 4. Run the application using the command `python app.py`.
-5. Open a web browser and navigate to `http://127.0.0.1:5000` to view the job postings.
+5. Open a web browser and navigate to `http://127.0.0.1:5001` to view the job postings.
 
 ### Usage
 
@@ -60,7 +71,7 @@ To run the web interface, execute the following command:
 python app.py
 ```
 
-Then, open a web browser and navigate to `http://127.0.0.1:5000` to view the job postings.
+Then, open a web browser and navigate to `http://127.0.0.1:5001` to view the job postings.
 
 ### Configuration
 
