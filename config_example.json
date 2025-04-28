@@ -5,24 +5,42 @@
   "headers": {
 
   },
-
   "OpenAI_API_KEY": "",
   "OpenAI_Model": "",
   "resume_path": "full local path to your resume in PDF format",
-
-  "search_queries": [    
-    {"keywords": "Python developer", "location": "Los Angeles", "f_WT": ""},
-    {"keywords": "Python developer", "location": "USA", "f_WT": "2"}
-
+  
+  "search_queries": [
+    {"keywords": "Penetration Tester", "location": "Israel", "f_WT": ""},
+    {"keywords": "Security Researcher", "location": "Israel", "f_WT": "2"},
+    {"keywords": "Application Security Researcher", "location": "Israel", "f_WT": "3"},
+    {"keywords": "Cyber Security Consultant", "location": "Israel", "f_WT": "4"},
+    {"keywords": "Offensive Security Engineer", "location": "Israel", "f_WT": "2"},
+    {"keywords": "Red Team Operator", "location": "Israel", "f_WT": "3"},
+    {"keywords": "Vulnerability Researcher", "location": "Israel", "f_WT": "2"}
   ],
+  
   "desc_words": [
-    "agriculture", "farm", "food safety", "manufacture", "manufacturing", "Bilingual", "chemistry", "FDA", "ICH Guideline", "21 CFR 210",
-    "biological sciences", "clinical research", "clinical trials", "drug safety", "ISO 9001", "ISO9001", "Life Sciences", "Biotech", "safety standards", "gt.school", "degree in accounting", "degree in Finance", "ISQM", "ISQM1",
-    "QA/QC", "Electrical Engineering", "IS09001"
+    "penetration testing", "pentesting", "offensive security", "exploit development", "reverse engineering",
+    "application security", "vulnerability research", "malware analysis", "CVE", "buffer overflow",
+    "web application security", "network security", "red teaming", "OSCP", "OSCE", "burp suite",
+    "Metasploit", "Nmap", "Wireshark", "threat modeling", "cyber threat intelligence",
+    "incident response", "MITRE ATT&CK", "Cobalt Strike", "Kerberos attacks", "AD exploitation",
+    "Privilege Escalation", "Active Directory", "Zero Day", "PoC development", "ethical hacking"
   ],
-  "title_exclude": ["frontend", "fron end", "game"],
-  "title_include": ["python", "developer", "backend", "BE", "engineer"],
-  "company_exclude": ["ClickJobs.io"],
+  
+  "title_exclude": [
+    "frontend", "front end", "game", "unity", "unreal", "graphic", "marketing", "sales", "intern"
+  ],
+  
+  "title_include": [
+    "penetration tester", "security researcher", "application security", "offensive security",
+    "vulnerability researcher", "red team", "cyber security", "security engineer"
+  ],
+  
+  "company_exclude": [
+    "ClickJobs.io", "Fiverr", "Upwork", "Freelancer"
+  ],
+  
   "languages": ["en"],
   "timespan": "r84600",
   "jobs_tablename": "jobs",
@@ -32,5 +50,4 @@
   "rounds": 1,
   "days_to_scrape": 10,
   "app_table": "jobs"
-  }
-  
+}
