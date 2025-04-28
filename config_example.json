@@ -11,12 +11,12 @@
   
   "search_queries": [
     {"keywords": "Penetration Tester", "location": "Israel", "f_WT": ""},
-    {"keywords": "Security Researcher", "location": "Israel", "f_WT": "2"},
-    {"keywords": "Application Security Researcher", "location": "Israel", "f_WT": "3"},
-    {"keywords": "Cyber Security Consultant", "location": "Israel", "f_WT": "4"},
-    {"keywords": "Offensive Security Engineer", "location": "Israel", "f_WT": "2"},
-    {"keywords": "Red Team Operator", "location": "Israel", "f_WT": "3"},
-    {"keywords": "Vulnerability Researcher", "location": "Israel", "f_WT": "2"}
+    {"keywords": "Security Researcher", "location": "Israel", "f_WT": ""},
+    {"keywords": "Application Security Researcher", "location": "Israel", "f_WT": ""},
+    {"keywords": "Cyber Security Consultant", "location": "Israel", "f_WT": ""},
+    {"keywords": "Offensive Security Engineer", "location": "Israel", "f_WT": ""},
+    {"keywords": "Red Team Operator", "location": "Israel", "f_WT": ""},
+    {"keywords": "Vulnerability Researcher", "location": "Israel", "f_WT": ""}
   ],
   
   "desc_words": [
@@ -29,7 +29,7 @@
   ],
   
   "title_exclude": [
-    "frontend", "front end", "game", "unity", "unreal", "graphic", "marketing", "sales", "intern"
+    "",
   ],
   
   "title_include": [
@@ -38,7 +38,7 @@
   ],
   
   "company_exclude": [
-    "ClickJobs.io", "Fiverr", "Upwork", "Freelancer"
+    ""
   ],
   
   "languages": ["en"],
