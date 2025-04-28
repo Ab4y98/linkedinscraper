@@ -1,3 +1,7 @@
+# UPDATE April 2025.
+
+Added Docker Support.
+
 # UPDATE August 2023.
 
 New version includes OpenAI integration for cover letter generation. See below for how to configure config.json file.
