@@ -1,8 +1,7 @@
 # UPDATE April 2025.
 
-Added Docker Support.
-
-Added Webhook integration.
+- Added Docker Support.
+- Added Webhook integration.
 
 # UPDATE August 2023.
 
