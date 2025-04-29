@@ -52,7 +52,7 @@ nano webhook.py
 then:
 ```bash
 chmod +x run_cronjob
-( crontab -l ; echo "* * * * * /linkedinscraper/run_cronjob" ) | crontab -
+( crontab -l ; echo "0 * * * * /linkedinscraper/run_cronjob" ) | crontab -
 crond
 ```
 
