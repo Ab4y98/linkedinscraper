@@ -41,7 +41,27 @@ sudo docker run -it -p 5001:5001 linkedinscraper
 python main.py
 python app.py
 ```
+#### Adding cron job (work every hour):
 
+```bash
+chmod +x script.sh
+crontab -e
+```
+
+Add inside crontab:
+```bash
+* * * * * /linkedinscraper/script.sh
+```
+
+Then run:
+```bash
+crond
+
+# for debug
+crond -f -l 2
+```
+
+---
 ### Installation
 
 1. Clone the repository to your local machine.
