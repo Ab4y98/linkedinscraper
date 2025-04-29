@@ -32,6 +32,8 @@ If you are using this application, please be aware that LinkedIn does not allow 
 ### Docker
 
 ```bash
+git clone https://github.com/Ab4y98/linkedinscraper.git
+cd linkedinscraper
 sudo docker build -t linkedinscraper .
 sudo docker run -it -p 5001:5001 linkedinscraper
 
