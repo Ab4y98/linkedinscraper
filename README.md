@@ -41,24 +41,18 @@ sudo docker run -it -p 5001:5001 linkedinscraper
 python main.py
 python app.py
 ```
-#### Adding cron job (work every hour):
+### Adding cron job (work every hour):
 
+change the webhook address:
+```bash
+nano webhook.py
+```
+
+then:
 ```bash
 chmod +x run_cronjob
-crontab -e
-```
-
-Add inside crontab:
-```bash
-* * * * * /linkedinscraper/run_cronjob
-```
-
-Then run:
-```bash
+( crontab -l ; echo "* * * * * /linkedinscraper/run_cronjob" ) | crontab -
 crond
-
-# for debug
-crond -f -l 2
 ```
 
 ---
