@@ -44,13 +44,13 @@ python app.py
 #### Adding cron job (work every hour):
 
 ```bash
-chmod +x cronjob.sh
+chmod +x run_cronjob
 crontab -e
 ```
 
 Add inside crontab:
 ```bash
-* * * * * /linkedinscraper/cronjob.sh
+* * * * * /linkedinscraper/run_cronjob
 ```
 
 Then run:
