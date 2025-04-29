@@ -1,9 +1,9 @@
 import requests
 
 def send_webhook(new_jobs):
-    webhook_url = "http://webhook.net"
+    webhook_url = 'http://webhook.net'
 
-    data = {f"content": "Wake up! there is {new_jobs} new job posts!"}
+    data = {"content": f"Wake up! there is {new_jobs} new job posts!\nLink: http://192.168.0.223:5001"}
 
     try:
         response = requests.post(webhook_url, json=data)

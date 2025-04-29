@@ -6,6 +6,8 @@ RUN apk add py3-pip
 
 RUN apk add git
 
+RUN apk add nano
+
 RUN git clone https://github.com/Ab4y98/linkedinscraper.git
 
 WORKDIR /linkedinscraper
