@@ -17,12 +17,13 @@
     {"keywords": "Cyber Security", "location": "Israel", "f_WT": ""},
     {"keywords": "Cloud Security", "location": "Israel", "f_WT": ""},
     {"keywords": "Red Team", "location": "Israel", "f_WT": ""},
-    {"keywords": "Vulnerability Researcher", "location": "Israel", "f_WT": ""}
+    {"keywords": "Vulnerability Researcher", "location": "Israel", "f_WT": ""},
+    {"keywords": "Cyber Security Consultant", "location": "Israel", "f_WT": ""}
   ],
   "desc_words": [],
   "title_exclude": [],
   "title_include": [
-    "security", "penetration", "researcher", "offensive", "application security", "cyber", "cloud security", "vulnerability", "red team"
+    "security", "penetration", "researcher", "offensive", "application security", "cyber", "cloud security", "vulnerability", "red team", "consultant"
   ],
   "company_exclude": [],
   "languages": [],
